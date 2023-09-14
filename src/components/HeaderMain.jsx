@@ -4,7 +4,7 @@ const HeaderMain = () => {
   return (
     <main className="grid md:grid-cols-2 max-w-[1200px] mx-auto md:h-[400px] ">
       {/* Columna izquierda para el texto en dispositivos grandes */}
-      <div className="order-2 min-h-[420px] md:order-1 flex justify-center items-center text-center ">
+      <div className="order-2 md:order-1 flex justify-center items-center text-center ">
         <div className="md:first-letter:py-4 md:flex md:flex-col md:items-start  ">
           <h2 className="text-4xl my-0  tracking-wide font-semibold text-black">
             Next generation
@@ -45,19 +45,21 @@ const HeaderMain = () => {
           />
 
           {/* Imagen de mobile */}
-          <div className=" bottom-0">
+          <div className="bottom-0">
             <img
-              className="relative block md:hidden w-[100%] md:550px"
+              className="relative block md:hidden w-[100%] md:550px h-[390px]"
               src="./images/bg-intro-mobile.svg"
               alt=""
             />
 
             {/* Otras imágenes de desktop */}
-            <img
-              className="absolute top-0 w-auto h-auto md:w-[390px] md:h-[590px] lg:w-[460px] lg:h-[780px]"
-              src="./images/image-mockups.png"
-              alt=""
-            />
+            <div className="flex justify-center items-center">
+              <img
+                className="absolute top-0 w-[350px] h-[420px] md:w-[390px] md:h-[590px] lg:w-[460px] lg:h-[780px]"
+                src="./images/image-mockups.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
