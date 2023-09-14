@@ -7,8 +7,8 @@ const Article = () => {
       <div className="text-GrayishBlue">
         <img
           className="rounded-t-lg"
-          src="./public/images/image-currency.jpg"
-          alt=""
+          src="./images/image-currency.jpg"
+          alt="currency"
         />
 
         <h4 className="p-4 text-[12px]">By Claire Robinson</h4>
@@ -22,8 +22,8 @@ const Article = () => {
       <div className="text-GrayishBlue">
         <img
           className="rounded-t-lg"
-          src="./public/images/image-restaurant.jpg"
-          alt=""
+          src="./images/image-restaurant.jpg"
+          alt="restaurant"
         />
         <h4 className="p-4 text-[12px]">By Wilson Hutton</h4>
         <h2>Treat yourself without worrying abour money</h2>
@@ -36,8 +36,8 @@ const Article = () => {
       <div className="text-GrayishBlue">
         <img
           className="rounded-t-lg"
-          src="./public/images/image-plane.jpg"
-          alt=""
+          src="./images/image-plane.jpg"
+          alt="plane"
         />
 
         <h4 className="p-4 text-[12px]">By Wilson Hutton</h4>
@@ -51,8 +51,8 @@ const Article = () => {
       <div className="text-GrayishBlue">
         <img
           className="rounded-t-lg"
-          src="./public/images/image-confetti.jpg"
-          alt=""
+          src="./images/image-confetti.jpg"
+          alt="confetti"
         />
 
         <h4 className="p-4 text-[12px]">By Claire Robinson</h4>
