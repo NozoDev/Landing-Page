@@ -16,7 +16,7 @@ const ChooseBnk = () => {
       <div className="bg-LightGrayish p-8 lg:flex text-center">
         <div className="mt-12">
           <div className="flex items-center justify-center">
-            <img src="./images/icon-online.svg" alt="" />
+            <img src="/images/icon-online.svg" alt="" />
           </div>
           <h2 className="text-xl mt-4">Online Banking</h2>
           <p className="mt-4 text-sm px-14">
@@ -27,7 +27,7 @@ const ChooseBnk = () => {
 
         <div className="mt-12">
           <div className="flex items-center justify-center">
-            <img src="./images/icon-onboarding.svg" alt="" />
+            <img src="/images/icon-onboarding.svg" alt="" />
           </div>
           <h2 className="text-xl mt-4">Fast Onboarding</h2>
           <p className="mt-4 text-sm px-12">
@@ -38,7 +38,7 @@ const ChooseBnk = () => {
 
         <div className="mt-12">
           <div className="flex items-center justify-center">
-            <img src="./images/icon-api.svg" alt="" />
+            <img src="/images/icon-api.svg" alt="" />
           </div>
           <h2 className="text-xl mt-4">Open API</h2>
           <p className="mt-4 text-sm px-14">
@@ -49,7 +49,7 @@ const ChooseBnk = () => {
 
         <div className="mt-12">
           <div className="flex items-center justify-center">
-            <img src="./images/icon-api.svg" alt="" />
+            <img src="/images/icon-api.svg" alt="" />
           </div>
           <h2 className="text-xl mt-4">Open API</h2>
           <p className="mt-4 text-sm px-14">
