@@ -42,13 +42,13 @@ const Header = () => {
       <div
         className={`hidden md:flex justify-center ${showMenu ? "mt-4" : ""}`}
       >
+      </div>
         <button
           type="submit"
           className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-36 rounded-2xl text-white font-semibold "
         >
           Request Invite
         </button>
-      </div>
     </header>
   );
 };
