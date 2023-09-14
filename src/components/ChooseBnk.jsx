@@ -2,7 +2,8 @@ import React from "react";
 
 const ChooseBnk = () => {
   return (
-    <div className="mt-24">
+    <div className="mt-24 xl:flex">
+      <div></div>
       <div className="p-2 text-center">
         <h2 className="text-4xl">Why choose</h2>
         <span className="text-4xl">Easybank?</span>
@@ -13,6 +14,7 @@ const ChooseBnk = () => {
           </p>
         </div>
       </div>
+
       <div className="bg-LightGrayish p-8 lg:flex text-center">
         <div className="mt-12">
           <div className="flex items-center justify-center">
