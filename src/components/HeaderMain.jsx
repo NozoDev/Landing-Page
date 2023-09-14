@@ -4,25 +4,26 @@ const HeaderMain = () => {
   return (
     <main className="grid md:grid-cols-2 max-w-[1200px] mx-auto md:h-[400px] ">
       {/* Columna izquierda para el texto en dispositivos grandes */}
-      <div className="order-2 h-[410px] md:order-1 flex justify-center items-center ">
+      <div className="order-2 h-[320px] md:order-1 flex justify-center items-center text-center ">
         <div className="md:first-letter:py-4 md:flex md:flex-col md:items-start  ">
-          <h2 className="text-5xl my-0  tracking-wide font-semibold text-black">
+          <h2 className="text-4xl my-0  tracking-wide font-semibold text-black">
             Next generation
           </h2>
-          <h2 className="text-5xl my-0  tracking-wide font-semibold text-black">
+          <h2 className="text-4xl my-0  tracking-wide font-semibold text-black">
             digital banking
           </h2>
-          <p className="md:my-0 pt-4 text-GrayishBlue">
-            Take your financial life online. Your Easybank
-          </p>
-          <p className="md:my-0 text-GrayishBlue">
-            account will be a one-stop-shop for spending,
-          </p>
-          <p className="md:my-0 text-GrayishBlue">
-            saving, budgeting, investing, and much more
-          </p>
-
-          <div className="mt-4 text-center  md:text-left">
+          <div className="mt-3 text-md">
+            <p className="md:my-0 pt-4 text-GrayishBlue">
+              Take your financial life online. Your Easybank
+            </p>
+            <p className="md:my-0  text-GrayishBlue">
+              account will be a one-stop-shop for spending,
+            </p>
+            <p className="md:my-0  text-GrayishBlue">
+              saving, budgeting, investing, and much more
+            </p>
+          </div>
+          <div className="mt-8 text-center  md:text-left">
             <button
               type="submit"
               className="bg-gradient-to-r from-LimeGreen to-BrightCyan h-12 w-44 rounded-3xl text-white font-semibold"
@@ -38,7 +39,7 @@ const HeaderMain = () => {
         <div className="h-[420px] w-auto">
           {/* Imagen de desktop */}
           <img
-            className="md:block hidden md:w-full md:h-[470px] lg:h-[800px]"
+            className="md:block hidden md:w-full md:h-[470px] lg:h-[650px]"
             src="./images/bg-intro-desktop.svg"
             alt=""
           />
@@ -53,7 +54,7 @@ const HeaderMain = () => {
 
             {/* Otras imágenes de desktop */}
             <img
-              className="absolute top-0 w-auto h-auto md:w-[390px] md:h-[590px] lg:w-[600px] lg:h-[824px]"
+              className="absolute top-0 w-auto h-auto md:w-[390px] md:h-[590px] lg:w-[460px] lg:h-[780px]"
               src="./images/image-mockups.png"
               alt=""
             />
