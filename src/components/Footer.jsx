@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-DarkBlue">
+    <div className="bg-DarkBlue  h-[450px]">
       <div className="flex items-center px-2 mt-10  justify-center ">
         <img className="" src="/images/logo.svg"></img>
       </div>

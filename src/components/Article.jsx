@@ -4,7 +4,7 @@ const Article = () => {
   return (
     <div className="mt-[20%] p-6 flex flex-col gap-8">
       <h2 className="text-4xl text-center mb-12">Latest Articles</h2>
-      <div className="lg:flex h-[450px] gap-4 flex flex-col">
+      <div className="lg:flex gap-4 flex flex-col">
         <div className="text-GrayishBlue">
           <img
             className="rounded-t-lg"
