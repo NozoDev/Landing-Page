@@ -40,7 +40,7 @@ const Footer = () => {
           Request Invite
         </button>
 
-        <p>$copy Easybank. All Rights Reserved</p>
+        <p>&copy; Easybank. All Rights Reserved</p>
       </div>
     </div>
   );
