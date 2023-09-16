@@ -5,7 +5,7 @@ const Article = () => {
     <div className="mt-[20%] p-6 flex flex-col">
       <h2 className="text-4xl text-center mb-12">Latest Articles</h2>
       <div className="grid gap-4 lg:flex ">
-        <div className="text-GrayishBlue bg-LightGrayish h-[350px] lg:flex lg:justify-center items-center lg:flex-col ">
+        <div className="text-GrayishBlue bg-LightGrayish lg:flex lg:justify-center items-center lg:flex-col ">
           <img
             className="rounded-t-lg lg:w-full md:w-full lg:h-[175px]"
             src="./images/image-currency.jpg"
@@ -22,7 +22,7 @@ const Article = () => {
           </p>
         </div>
 
-        <div className="text-GrayishBlue bg-LightGrayish lg:flex h-[350px] lg:justify-center items-center lg:flex-col">
+        <div className="text-GrayishBlue bg-LightGrayish lg:flex  lg:justify-center items-center lg:flex-col">
           <img
             className="rounded-t-lg lg:w-full md:w-full"
             src="./images/image-restaurant.jpg"
@@ -38,7 +38,7 @@ const Article = () => {
           </p>
         </div>
 
-        <div className="text-GrayishBlue bg-LightGrayish lg:flex h-[350px] lg:justify-center items-center lg:flex-col">
+        <div className="text-GrayishBlue bg-LightGrayish lg:flex lg:justify-center items-center lg:flex-col">
           <img
             className="rounded-t-lg lg:w-full md:w-full"
             src="./images/image-plane.jpg"
@@ -55,7 +55,7 @@ const Article = () => {
           </p>
         </div>
 
-        <div className="text-GrayishBlue bg-LightGrayish lg:flex h-[350px] lg:justify-center items-center lg:flex-col">
+        <div className="text-GrayishBlue bg-LightGrayish lg:flex lg:justify-center items-center lg:flex-col">
           <img
             className="rounded-t-lg lg:w-full md:w-full"
             src="./images/image-confetti.jpg"
