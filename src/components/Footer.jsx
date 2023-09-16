@@ -10,7 +10,11 @@ const Footer = () => {
       <div className="flex justify-center gap-4 mt-10">
         <div className="hover:animate-pulse cursor-pointer">
           <a href="www.facebook.com" target="_blank">
-            <img className="w-8" src="/images/icon-facebook.svg" alt="facebook.com" />
+            <img
+              className="w-8"
+              src="/images/icon-facebook.svg"
+              alt="facebook.com"
+            />
           </a>
         </div>
         <div>
@@ -19,23 +23,51 @@ const Footer = () => {
           </a>
         </div>
         <div>
-         <a href="www.twitter.com" target="_blank"> <img className="w-8" src="/images/icon-twitter.svg" alt="twitter" /></a>
+          <a href="www.twitter.com" target="_blank">
+            {" "}
+            <img className="w-8" src="/images/icon-twitter.svg" alt="twitter" />
+          </a>
         </div>
         <div>
-          <a href="www.pinterest.com" target="_blank"><img className="w-8" src="/images/icon-pinterest.svg" alt="pinterest" /></a>
+          <a href="www.pinterest.com" target="_blank">
+            <img
+              className="w-8"
+              src="/images/icon-pinterest.svg"
+              alt="pinterest"
+            />
+          </a>
         </div>
         <div>
-         <a href="www.instagram.com" target="_blank"> <img className="w-8" src="/images/icon-instagram.svg" alt="instagram" /></a>
+          <a href="www.instagram.com" target="_blank">
+            {" "}
+            <img
+              className="w-8"
+              src="/images/icon-instagram.svg"
+              alt="instagram"
+            />
+          </a>
         </div>
       </div>
 
       <div className="flex flex-col justify-center items-center gap-4 mt-4">
-        <a className="hover:text-2xl font-bold" href="/">About Us</a>
-        <a className="hover:text-2xl font-bold" href="#">Contact</a>
-        <a  className="hover:text-2xl font-bold"href="#">Blog</a>
-        <a  className="hover:text-2xl font-bold"href="#">Careers</a>
-        <a  className="hover:text-2xl font-bold"href="#">Support</a>
-        <a className="hover:text-2xl font-bold" href="#">Privacy Policy</a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="/">
+          About Us
+        </a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="#">
+          Contact
+        </a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="#">
+          Blog
+        </a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="#">
+          Careers
+        </a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="#">
+          Support
+        </a>
+        <a className="hover:animate-pulse font-bold text-GrayishBlue" href="#">
+          Privacy Policy
+        </a>
 
         <button
           type="submit"
