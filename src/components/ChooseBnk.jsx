@@ -2,7 +2,7 @@ import React from "react";
 
 const ChooseBnk = () => {
   return (
-    <div className="mt-24 xl:flex">
+    <div className="mt-24 xl:flex xl:flex-col">
       <div className="p-2 text-center">
         <div className="md:flex md:gap-4 md:pl-12">
           <h2 className="text-4xl">Why choose</h2>
