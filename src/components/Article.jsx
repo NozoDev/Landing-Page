@@ -12,10 +12,10 @@ const Article = () => {
             alt="currency"
           />
 
-          <h4 className="p-4 text-[10px] -ml-28 hover:text-blue-500 cursor-pointer">
+          <h4 className="p-4 text-[10px] lg:-ml-28 hover:text-blue-500 cursor-pointer">
             By Claire Robinson
           </h4>
-          <h2 className="text-[10px] p-2 -ml-4">
+          <h2 className="text-[10px] p-2 ">
             Receive money in any currency with no fees
           </h2>
           <p className="text-[10px] p-2">
@@ -30,10 +30,10 @@ const Article = () => {
             src="./images/image-restaurant.jpg"
             alt="restaurant"
           />
-          <h4 className="p-4 text-[10px] -ml-28 hover:text-blue-500 cursor-pointer">
+          <h4 className="p-4 text-[10px] lg:-ml-28 hover:text-blue-500 cursor-pointer">
             By Wilson Hutton
           </h4>
-          <h2 className="text-[10px] p-2 -ml-4">
+          <h2 className="text-[10px] p-2 ">
             Treat yourself without worrying abour money
           </h2>
           <p className="text-[10px] p-2">
@@ -49,10 +49,10 @@ const Article = () => {
             alt="plane"
           />
 
-          <h4 className="p-4 text-[10px] -ml-28 hover:text-blue-500 cursor-pointer">
+          <h4 className="p-4 text-[10px] lg:-ml-28 hover:text-blue-500 cursor-pointer">
             By Wilson Hutton
           </h4>
-          <h2 className="text-[10px] p-2 -ml-7">
+          <h2 className="text-[10px] p-2 ">
             Take your Easybank card wherever you go
           </h2>
           <p className="text-[10px] p-2">
@@ -68,10 +68,10 @@ const Article = () => {
             alt="confetti"
           />
 
-          <h4 className="p-4 text-[10px] -ml-28  hover:text-blue-500 cursor-pointer">
+          <h4 className="p-4 text-[10px] lg:-ml-28  hover:text-blue-500 cursor-pointer">
             By Claire Robinson
           </h4>
-          <h2 className="text-[10px] -ml-7 p-2">
+          <h2 className="text-[10px]  p-2">
             Our invite-only Beta accounts are now live!
           </h2>
           <p className="text-[10px] p-2">
