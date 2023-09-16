@@ -24,11 +24,21 @@ const Header = () => {
           showMenu ? "left-0" : "-left-full"
         }  duration-200 md:static md:flex md:w-auto p-5 place-content-center place-items-center rounded-sm bg-VeryGray`}
       >
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">blog</a>
-        <a href="">Careers</a>
+        <a className="hover:animate-pulse text-GrayishBlue hover:font-semibold hover:text-stone-600 " href="">
+          Home
+        </a>
+        <a className="hover:animate-pulse text-GrayishBlue hover:font-semibold hover:text-stone-600 " href="">
+          About
+        </a>
+        <a className="hover:animate-pulse text-GrayishBlue hover:font-semibold hover:text-stone-600 " href="">
+          Contact
+        </a>
+        <a className="hover:animate-pulse text-GrayishBlue hover:font-semibold hover:text-stone-600 " href="">
+          blog
+        </a>
+        <a className="hover:animate-pulse text-GrayishBlue hover:font-semibold hover:text-stone-600 " href="">
+          Careers
+        </a>
         <div className="md:hidden">
           <button
             type="submit"
