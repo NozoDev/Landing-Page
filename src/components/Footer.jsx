@@ -39,7 +39,7 @@ const Footer = () => {
 
         <button
           type="submit"
-          className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-36 rounded-2xl text-white font-semibold "
+          className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-44 rounded-full text-white font-semibold "
         >
           Request Invite
         </button>

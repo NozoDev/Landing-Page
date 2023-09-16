@@ -42,7 +42,7 @@ const Header = () => {
         <div className="md:hidden">
           <button
             type="submit"
-            className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-36 rounded-2xl text-white font-semibold mt-4"
+            className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-44 rounded-2xl text-white font-semibold mt-4"
           >
             Request Invite
           </button>
@@ -55,7 +55,7 @@ const Header = () => {
         {" "}
         <button
           type="submit"
-          className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-36 rounded-2xl text-white font-semibold "
+          className="bg-gradient-to-r  from-LimeGreen to-BrightCyan h-12 w-44 rounded-full text-white font-semibold "
         >
           Request Invite
         </button>
